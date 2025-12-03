@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style2.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="login.html" method="post">
+    <h1> Cadastro <h1> 
+    <p> <h2> Faça seu cadastro aqui <h2></p> 
+</div>
+    <label for="nome">Nome:</label>
+    <input type="text" 
+        id="nome" 
+        name="nome" 
+        placeholder="Digite seu nome" 
+        required> <br> <br>
+
+   
+    <label for="email">Email:</label>
+    <input type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Digite seu email" 
+        required> <br> <br>
+
+    
+    <label for="senha">Senha:</label>
+    <input type="password" 
+        id="senha" 
+        name="senha" 
+        placeholder="Digite sua senha" 
+        required> <br> <br>
+
+
+    <label for="idade" > Data de nascimento:</label>    
+    <input type="number"
+        id="idade" 
+        name="idade"
+        placeholder="Digite sua data de nacimento" 
+        required> <br> <br>
+
+         
+        <button type="submit">Login</button> </form>
+</body>
+</html>
+
+Css Cadastro
+body {
+    font-family: Arial, sans-serif;
+    background-color: #726f6f;
+}
+
+form {
+    width: 900px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgb(233, 233, 230);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2436db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1434c4;
+}
