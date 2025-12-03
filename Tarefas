@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciamento de Tarefas</title>
+  
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Gerenciamento de Tarefas</h2>
+
+    <p><strong>Usuário:</strong> Eduardo Rocha</p>
+
+    <h3>Tarefas:</h3>
+
+  
+    <div class="tarefa">
+        <p class="titulo">Tarefa: Estudar HTML</p>
+        <p>Descrição: varrer casa.</p>
+    </div>
+
+   
+    <div class="tarefa">
+        <p class="titulo">Tarefa: Fazer exercícios</p>
+        <p>Descrição: Resolver 10 exercicios de matematica.</p>
+    </div>
+
+    
+    <div class="tarefa">
+        <p class="titulo">Tarefa: Criar layout</p>
+        <p>Descrição: lavar louça.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
+CSS Gerenciamento de tarefas
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f3f3;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #163adf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #363836;
+}
